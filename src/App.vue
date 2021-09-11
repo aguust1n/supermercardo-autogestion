@@ -53,3 +53,30 @@ export default {
   }),
 };
 </script>
+
+<style>
+@font-face {
+font-family: Montserrat-Bold;
+src: url('/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('/fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url('/fonts/Montserrat-SemiBoldItalic.ttf');
+}
+
+.Montserrat {
+font-family: "Montserrat";
+}
+.Montserrat-Bold {
+  font-family: "Montserrat-Bold";
+}
+
+</style>
