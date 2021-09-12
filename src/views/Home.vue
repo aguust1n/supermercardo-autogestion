@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <menu-principal name="Agustin Sosa" email="agustin@gmail.com"/>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
 
+  import MenuPrincipal from "../components/MenuPrincipal";
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      MenuPrincipal
     },
   }
 </script>
