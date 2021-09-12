@@ -6,37 +6,23 @@
                     align="center"
                     justify="center"
                     class="ma-2"
+                    no-gutters
             >
                 <v-col
-                        cols="6"
-                        md="6"
+                        cols="12"
                         align="center"
                 ><v-img
                         width="180"
+                        alt=""
                         class="hidden-xs-only"
-                        src="/img/"
+                        src="/img/logoSuper_blanco.svg"
                 ></v-img>
-                    <v-img
-                            width="150"
-                            class="hidden-sm-and-up"
-                            src="/img/"
-                    ></v-img>
-                </v-col>
-                <v-col
-                        cols="6"
-                        md="6"
-                        align="center"
-                >
-                    <v-img
-                            width="180"
-                            class="hidden-xs-only"
-                            src="/img/"
-                    ></v-img>
-                    <v-img
-                            width="140"
-                            class="hidden-sm-and-up"
-                            src="/img/"
-                    ></v-img>
+                <v-img
+                        width="120"
+                        alt=""
+                        class="hidden-sm-and-up"
+                        src="/img/logoSuper_blanco.svg"
+                ></v-img>
                 </v-col>
             </v-row>
         </v-footer>

@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <navbar/>
     <v-main class="mt-4 mb-8 mx-4 mx-sm-10 mx-lg-16">
       <router-view/>
     </v-main>
@@ -10,9 +11,10 @@
 <script>
 
 import Footer from "./layout/Footer";
+import Navbar from "./layout/Navbar";
 export default {
   name: 'App',
-  components: {Footer},
+  components: {Navbar, Footer},
   data: () => ({
     //
   }),
